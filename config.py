@@ -2,8 +2,8 @@
 from os import getenv
 
 
-API_ID = int(getenv("API_ID", "18618422"))
-API_HASH = getenv("API_HASH", "f165b1caec3cfa4df943fe1cbe82d22a")
+API_ID = int(getenv("API_ID", "20346550"))
+API_HASH = getenv("API_HASH", "bc79c3bea7a626887bdc0871eecf0327)
 BOT_TOKEN = getenv("BOT_TOKEN", "7358697038:AAFfanRD27-oXMmNpvelVY9SYmizl5y50Ro")
 OWNER_ID = int(getenv("OWNER_ID", "7081036509"))
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6050277919 2112898623").split()))
